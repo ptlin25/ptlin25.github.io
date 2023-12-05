@@ -5,38 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patrick Lin - Personal Website</title>
     <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/4072f6727c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Patrick Lin</h1>
-        <p>Welcome to my personal website</p>
-        <nav>
+        <nav id="left-nav">
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="mailto: patrick.lin625@gmail.com">
+                        <i class="fa-solid fa-envelope fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://drive.google.com/file/d/178PUCuncYDGk4-z9j4sVSmoef-7v064s/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <label>Resume</label>
+                    </a>
+                </li>
+            </ul>    
+        </nav>
+        <h1 id="title">Patrick Lin</h1>
+        <nav id="right-nav">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/patrick-tlin/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/ptlin25/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github fa-2x"></i>
+                    </a>
+                </li>
+                
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="about">
-            <h2>About</h2>
-            <p>Here, you can write about yourself, your skills, experiences, etc.</p>
+            <h1>About</h1>
+            <p>Hi, I'm Patrick Lin and welcome to my website!</p>
+            <p>I am a second year student at the University of Chicago</p>
         </section>
 
         <section id="projects">
-            <h2>Projects</h2>
-            <p>Display your projects, works, or portfolio items here.</p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>
-                <a href="https://www.linkedin.com/in/patrick-tlin/">LinkedIn</a>
-            </p>
+            <h1>Projects</h1>
+            <div id="project-container">
+                <div class="project-item">
+                    one
+                </div>
+                <div class="project-item">
+                    two
+                    <img src="images/cache.jpg">
+                </div>
+                
+            </div>
         </section>
     </main>
-
 </body>
 </html>
